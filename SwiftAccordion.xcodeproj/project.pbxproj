@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		B64F922F275676A200E6031D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F922E275676A200E6031D /* AppDelegate.swift */; };
 		B64F9231275676A200E6031D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F9230275676A200E6031D /* SceneDelegate.swift */; };
-		B64F9233275676A200E6031D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F9232275676A200E6031D /* ViewController.swift */; };
-		B64F9236275676A200E6031D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64F9234275676A200E6031D /* Main.storyboard */; };
 		B64F9238275676A400E6031D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64F9237275676A400E6031D /* Assets.xcassets */; };
 		B64F923B275676A400E6031D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64F9239275676A400E6031D /* LaunchScreen.storyboard */; };
 		B64F9246275676A400E6031D /* SwiftAccordionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F9245275676A400E6031D /* SwiftAccordionTests.swift */; };
@@ -41,8 +39,6 @@
 		B64F922B275676A200E6031D /* SwiftAccordion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAccordion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64F922E275676A200E6031D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B64F9230275676A200E6031D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B64F9232275676A200E6031D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B64F9235275676A200E6031D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B64F9237275676A400E6031D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B64F923A275676A400E6031D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B64F923C275676A400E6031D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -150,8 +146,6 @@
 			isa = PBXGroup;
 			children = (
 				B64F926127567A2900E6031D /* AccordionList */,
-				B64F9232275676A200E6031D /* ViewController.swift */,
-				B64F9234275676A200E6031D /* Main.storyboard */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -280,7 +274,6 @@
 				B64F923B275676A400E6031D /* LaunchScreen.storyboard in Resources */,
 				B64F9238275676A400E6031D /* Assets.xcassets in Resources */,
 				B64F926627567A5300E6031D /* AccordionListViewController.storyboard in Resources */,
-				B64F9236275676A200E6031D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +298,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B64F9233275676A200E6031D /* ViewController.swift in Sources */,
 				B64F922F275676A200E6031D /* AppDelegate.swift in Sources */,
 				B64F9231275676A200E6031D /* SceneDelegate.swift in Sources */,
 				B64F926427567A4B00E6031D /* AccordionListViewController.swift in Sources */,
@@ -345,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B64F9234275676A200E6031D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B64F9235275676A200E6031D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B64F9239275676A400E6031D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -492,7 +476,7 @@
 				INFOPLIST_FILE = SwiftAccordion/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = AccordionListViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -521,7 +505,7 @@
 				INFOPLIST_FILE = SwiftAccordion/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = AccordionListViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
