@@ -16,6 +16,18 @@
 		B64F9252275676A400E6031D /* SwiftAccordionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F9251275676A400E6031D /* SwiftAccordionUITestsLaunchTests.swift */; };
 		B64F926427567A4B00E6031D /* AccordionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64F926327567A4B00E6031D /* AccordionListViewController.swift */; };
 		B64F926627567A5300E6031D /* AccordionListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64F926527567A5300E6031D /* AccordionListViewController.storyboard */; };
+		B6D505EC275B05A00071EF99 /* AccordionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D505EA275B05A00071EF99 /* AccordionCollectionViewCell.swift */; };
+		B6D505ED275B05A00071EF99 /* AccordionCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D505EB275B05A00071EF99 /* AccordionCollectionViewCell.xib */; };
+		B6D505EF275B0A1F0071EF99 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D505EE275B0A1F0071EF99 /* UIView+.swift */; };
+		B6D505F4275B1D5E0071EF99 /* GroupNameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D505F2275B1D5E0071EF99 /* GroupNameCollectionViewCell.swift */; };
+		B6D505F5275B1D5E0071EF99 /* GroupNameCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D505F3275B1D5E0071EF99 /* GroupNameCollectionViewCell.xib */; };
+		B6D505F8275B25340071EF99 /* AccordionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D505F7275B25330071EF99 /* AccordionModel.swift */; };
+		B6D505FA275B258C0071EF99 /* AccordionChildModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D505F9275B258C0071EF99 /* AccordionChildModel.swift */; };
+		B6D50602275B28DE0071EF99 /* UICollectionReusableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D50601275B28DE0071EF99 /* UICollectionReusableView+.swift */; };
+		B6D50604275B2E4A0071EF99 /* AccordionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6D50603275B2E4A0071EF99 /* AccordionHeaderView.xib */; };
+		B6D50606275B2E570071EF99 /* AccordionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D50605275B2E570071EF99 /* AccordionHeaderView.swift */; };
+		B6D50608275B4C5C0071EF99 /* AccordionListViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D50607275B4C5B0071EF99 /* AccordionListViewData.swift */; };
+		B6D5060A275B50D60071EF99 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D50609275B50D60071EF99 /* UIColor+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		B64F9251275676A400E6031D /* SwiftAccordionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftAccordionUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B64F926327567A4B00E6031D /* AccordionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionListViewController.swift; sourceTree = "<group>"; };
 		B64F926527567A5300E6031D /* AccordionListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AccordionListViewController.storyboard; sourceTree = "<group>"; };
+		B6D505EA275B05A00071EF99 /* AccordionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6D505EB275B05A00071EF99 /* AccordionCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccordionCollectionViewCell.xib; sourceTree = "<group>"; };
+		B6D505EE275B0A1F0071EF99 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		B6D505F2275B1D5E0071EF99 /* GroupNameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupNameCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6D505F3275B1D5E0071EF99 /* GroupNameCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupNameCollectionViewCell.xib; sourceTree = "<group>"; };
+		B6D505F7275B25330071EF99 /* AccordionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionModel.swift; sourceTree = "<group>"; };
+		B6D505F9275B258C0071EF99 /* AccordionChildModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionChildModel.swift; sourceTree = "<group>"; };
+		B6D50601275B28DE0071EF99 /* UICollectionReusableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+.swift"; sourceTree = "<group>"; };
+		B6D50603275B2E4A0071EF99 /* AccordionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccordionHeaderView.xib; sourceTree = "<group>"; };
+		B6D50605275B2E570071EF99 /* AccordionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionHeaderView.swift; sourceTree = "<group>"; };
+		B6D50607275B4C5B0071EF99 /* AccordionListViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordionListViewData.swift; sourceTree = "<group>"; };
+		B6D50609275B50D60071EF99 /* UIColor+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +169,8 @@
 		B64F92602756791100E6031D /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				B64F926127567A2900E6031D /* AccordionList */,
+				B66E6521275B01C4009E0671 /* Screen */,
+				B64F926727567D5900E6031D /* Utility */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -153,6 +178,7 @@
 		B64F926127567A2900E6031D /* AccordionList */ = {
 			isa = PBXGroup;
 			children = (
+				B6D505F6275B25290071EF99 /* Model */,
 				B64F926227567A3900E6031D /* View */,
 			);
 			path = AccordionList;
@@ -163,8 +189,74 @@
 			children = (
 				B64F926527567A5300E6031D /* AccordionListViewController.storyboard */,
 				B64F926327567A4B00E6031D /* AccordionListViewController.swift */,
+				B6D505E9275B05820071EF99 /* Components */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		B64F926727567D5900E6031D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B64F926827567E3800E6031D /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		B64F926827567E3800E6031D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B6D50601275B28DE0071EF99 /* UICollectionReusableView+.swift */,
+				B6D50609275B50D60071EF99 /* UIColor+.swift */,
+				B6D505EE275B0A1F0071EF99 /* UIView+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B66E6521275B01C4009E0671 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B64F926127567A2900E6031D /* AccordionList */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		B6D505E9275B05820071EF99 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B6D505FB275B27A40071EF99 /* Cell */,
+				B6D505FC275B27AD0071EF99 /* Header */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B6D505F6275B25290071EF99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6D505F9275B258C0071EF99 /* AccordionChildModel.swift */,
+				B6D50607275B4C5B0071EF99 /* AccordionListViewData.swift */,
+				B6D505F7275B25330071EF99 /* AccordionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6D505FB275B27A40071EF99 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B6D505EA275B05A00071EF99 /* AccordionCollectionViewCell.swift */,
+				B6D505EB275B05A00071EF99 /* AccordionCollectionViewCell.xib */,
+				B6D505F2275B1D5E0071EF99 /* GroupNameCollectionViewCell.swift */,
+				B6D505F3275B1D5E0071EF99 /* GroupNameCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B6D505FC275B27AD0071EF99 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				B6D50605275B2E570071EF99 /* AccordionHeaderView.swift */,
+				B6D50603275B2E4A0071EF99 /* AccordionHeaderView.xib */,
+			);
+			path = Header;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,8 +363,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D505F5275B1D5E0071EF99 /* GroupNameCollectionViewCell.xib in Resources */,
 				B64F923B275676A400E6031D /* LaunchScreen.storyboard in Resources */,
+				B6D505ED275B05A00071EF99 /* AccordionCollectionViewCell.xib in Resources */,
 				B64F9238275676A400E6031D /* Assets.xcassets in Resources */,
+				B6D50604275B2E4A0071EF99 /* AccordionHeaderView.xib in Resources */,
 				B64F926627567A5300E6031D /* AccordionListViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +393,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D505F4275B1D5E0071EF99 /* GroupNameCollectionViewCell.swift in Sources */,
 				B64F922F275676A200E6031D /* AppDelegate.swift in Sources */,
+				B6D50606275B2E570071EF99 /* AccordionHeaderView.swift in Sources */,
+				B6D505EC275B05A00071EF99 /* AccordionCollectionViewCell.swift in Sources */,
+				B6D50602275B28DE0071EF99 /* UICollectionReusableView+.swift in Sources */,
+				B6D5060A275B50D60071EF99 /* UIColor+.swift in Sources */,
+				B6D505FA275B258C0071EF99 /* AccordionChildModel.swift in Sources */,
+				B6D505EF275B0A1F0071EF99 /* UIView+.swift in Sources */,
+				B6D50608275B4C5C0071EF99 /* AccordionListViewData.swift in Sources */,
+				B6D505F8275B25340071EF99 /* AccordionModel.swift in Sources */,
 				B64F9231275676A200E6031D /* SceneDelegate.swift in Sources */,
 				B64F926427567A4B00E6031D /* AccordionListViewController.swift in Sources */,
 			);

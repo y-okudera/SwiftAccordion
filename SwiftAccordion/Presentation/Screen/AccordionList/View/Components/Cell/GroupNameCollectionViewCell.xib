@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="GroupNameCollectionViewCell" id="gTV-IL-0wX" customClass="GroupNameCollectionViewCell" customModule="SwiftAccordion" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="242" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="242" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LJd-PV-9CI">
+                        <rect key="frame" x="0.0" y="0.0" width="242" height="90"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nomi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyf-4M-Akc">
+                                <rect key="frame" x="16" y="16" width="210" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="wSp-px-3Ur"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guruh nomi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UWA-ft-O30">
+                                <rect key="frame" x="16" y="53" width="210" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uyf-4M-Akc" secondAttribute="trailing" constant="16" id="4in-Zf-Vbi"/>
+                            <constraint firstItem="uyf-4M-Akc" firstAttribute="top" secondItem="LJd-PV-9CI" secondAttribute="top" constant="16" id="LO5-Nd-C7M"/>
+                            <constraint firstItem="UWA-ft-O30" firstAttribute="top" secondItem="uyf-4M-Akc" secondAttribute="bottom" constant="16" id="LRy-9K-1h3"/>
+                            <constraint firstAttribute="bottom" secondItem="UWA-ft-O30" secondAttribute="bottom" constant="16" id="TSe-2b-BSz"/>
+                            <constraint firstAttribute="trailing" secondItem="UWA-ft-O30" secondAttribute="trailing" constant="16" id="Zzq-AS-9gh"/>
+                            <constraint firstItem="uyf-4M-Akc" firstAttribute="leading" secondItem="LJd-PV-9CI" secondAttribute="leading" constant="16" id="cf2-rF-FAh"/>
+                            <constraint firstItem="UWA-ft-O30" firstAttribute="leading" secondItem="LJd-PV-9CI" secondAttribute="leading" constant="16" id="mUW-BW-paX"/>
+                            <constraint firstItem="uyf-4M-Akc" firstAttribute="height" secondItem="UWA-ft-O30" secondAttribute="height" id="ph1-oo-7bt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="LJd-PV-9CI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="6MG-lC-5LD"/>
+                <constraint firstAttribute="bottom" secondItem="LJd-PV-9CI" secondAttribute="bottom" id="eRt-35-lKq"/>
+                <constraint firstItem="LJd-PV-9CI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="tai-fu-UhP"/>
+                <constraint firstAttribute="trailing" secondItem="LJd-PV-9CI" secondAttribute="trailing" id="zIy-BL-61O"/>
+            </constraints>
+            <size key="customSize" width="242" height="157"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="16"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="groupNameLabel" destination="UWA-ft-O30" id="Lze-ri-Chk"/>
+                <outlet property="nameLabel" destination="uyf-4M-Akc" id="QAr-mo-LJ9"/>
+            </connections>
+            <point key="canvasLocation" x="276.81159420289856" y="-21.763392857142858"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

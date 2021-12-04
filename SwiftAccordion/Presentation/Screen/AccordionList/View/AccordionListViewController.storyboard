@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Accordion List View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AccordionListViewController" id="Y6W-OH-hqX" customClass="AccordionListViewController" customModule="SwiftAccordion" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="e4J-df-HtA">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" name="background"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="56a-u9-uRh">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="background"/>
+                        <constraints>
+                            <constraint firstItem="e4J-df-HtA" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="Mes-iM-GJM"/>
+                            <constraint firstItem="e4J-df-HtA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="NzE-uK-cYL"/>
+                            <constraint firstItem="e4J-df-HtA" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="f3m-Dl-asm"/>
+                            <constraint firstItem="e4J-df-HtA" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="hEO-WQ-uDQ"/>
+                            <constraint firstItem="e4J-df-HtA" firstAttribute="bottom" secondItem="vDu-zF-Fre" secondAttribute="bottom" id="oKt-3J-q3a"/>
+                            <constraint firstItem="e4J-df-HtA" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="um9-jS-2Ma"/>
+                            <constraint firstItem="e4J-df-HtA" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="w0e-jh-Nm5"/>
+                            <constraint firstItem="e4J-df-HtA" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="x79-hz-qYP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="e4J-df-HtA" id="blD-Od-6oC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="background">
+            <color red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

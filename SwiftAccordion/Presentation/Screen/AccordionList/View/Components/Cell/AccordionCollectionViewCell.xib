@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AccordionCollectionViewCell" id="gTV-IL-0wX" customClass="AccordionCollectionViewCell" customModule="SwiftAccordion" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="279" height="147"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="279" height="147"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j79-Yl-vKH">
+                        <rect key="frame" x="0.0" y="0.0" width="279" height="147"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="b7q-hv-Aah">
+                                <rect key="frame" x="16" y="16" width="247" height="115"/>
+                                <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="b7q-hv-Aah" firstAttribute="top" secondItem="j79-Yl-vKH" secondAttribute="top" constant="16" id="59A-ex-2m2"/>
+                            <constraint firstAttribute="bottom" secondItem="b7q-hv-Aah" secondAttribute="bottom" constant="16" id="ax5-LF-IFO"/>
+                            <constraint firstItem="b7q-hv-Aah" firstAttribute="leading" secondItem="j79-Yl-vKH" secondAttribute="leading" constant="16" id="e6f-eg-Ocj"/>
+                            <constraint firstAttribute="trailing" secondItem="b7q-hv-Aah" secondAttribute="trailing" constant="16" id="fEu-Oi-qWt"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="j79-Yl-vKH" secondAttribute="trailing" id="Cyl-Oa-v1N"/>
+                <constraint firstAttribute="bottom" secondItem="j79-Yl-vKH" secondAttribute="bottom" id="RRU-xD-LW2"/>
+                <constraint firstItem="j79-Yl-vKH" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="kwq-KT-ZuS"/>
+                <constraint firstItem="j79-Yl-vKH" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="rNX-Re-pC7"/>
+            </constraints>
+            <size key="customSize" width="339" height="177"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="16"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="accordionTextView" destination="b7q-hv-Aah" id="7cu-Lo-l3a"/>
+            </connections>
+            <point key="canvasLocation" x="345.6521739130435" y="95.424107142857139"/>
+        </collectionViewCell>
+    </objects>
+</document>
